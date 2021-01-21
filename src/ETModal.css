@@ -1,0 +1,115 @@
+.ETModal {
+    height: 80vh;
+    width: 30vw;
+    background-color: #5A86BF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%
+}
+
+.ChooseCharacter {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.column {
+    margin-right: 1%;
+    margin-top: 2%;
+    display: inline-block
+}
+
+.column input  {
+    display: none
+}
+
+
+
+.nameInput {
+    border: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #5A86BF;
+    border-bottom: 2px solid white;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.nameInput::placeholder {
+    color: rgb(196, 196, 196);
+    font-size: 1.5rem;
+}
+
+.nameInput:focus {
+    outline: none;
+}
+
+.submitButton {
+    display: block;
+    width: 80%;
+    height: 10%;
+    background-color: #F2955A;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 5%;
+    box-shadow: 6px 6px #E07835;
+    border: none;
+}
+
+.column label {
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(./assets/ETVerde.png);
+    border: 4px solid #5A86BF;
+}
+
+.column input[type="radio"]:checked+label {
+    border: 4px solid #E07835;
+}
+
+.ETBigPicture img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.bigPictureETDivStyle {
+    margin-left: 17%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PurpleETLabel{
+    background-image: url("./assets/ETRoxo.png");
+}
+
+#GreenETLabel{
+    background-image: url("./assets/ETVerde.png");
+}
+
+#YellowETLabel{
+    background-image: url("./assets/ETAmarelo.png");
+}
+
+#AstronautLabel{
+    background-image: url("./assets/Astronaut.png");
+}

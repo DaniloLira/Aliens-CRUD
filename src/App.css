@@ -1,0 +1,89 @@
+.App h1{
+  top: 17%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.newCharacterButton {
+  border: 3px solid #F2955A;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  border-radius: 80%;
+  font-size: 3rem;
+  color: #F2955A;
+  margin-bottom: 40%;
+}
+
+.aliensDeleteButton {
+  display: block;
+  margin-top: 20%;
+  background-color: #F2955A;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100%;
+}
+
+.charactersColumn {
+  top: 35%;
+  width: 80vw;
+  position: absolute;
+  text-align: center;
+}
+
+.characterBox {
+  margin-left: auto;
+  margin-right: 5%;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #F2955A;
+  border-spacing: 10%;
+}
+
+.aliensName {
+  color: #F2955A;
+  font-size: 3rem;
+  margin-bottom: 1%;
+}
+
+.aliensPicture {
+  width: 61px;
+  height: 147px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
